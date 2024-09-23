@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      Task 2
+
+      Student Name:Taylor Do
+      Date:9/22/24
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Hands-on Project 1-5</title>
+      <style>
+         h1 {
+            color: white;
+            text-align: center;
+            background-color: #41A154;
+            background-position: center;
+            padding: 10px;
+            max-width: 500px;
+         }
+      </style>
+   <link rel="stylesheet" href="styles.css" />
+   <script>
+      var reopenDate = new Date("2024-01-01T00:00:00");
+   </script>
+</head>
+
+<body>
+   <header>
+      <h1>Hands-on Project 1-5</h1>
+   </header>
+   <article>
+      <p>We are closed for the holiday and will reopen at midnight tonight.</p>
+      <script>
+         var today = new Date();
+         if (today > reopenDate) {
+            document.write("<p>We are now reopen!</p>");
+         } else {
+            document.write("<p>We will reopen at: " + reopenDate + "</p>");
+         }
+      </script>
+   </article>
+</body>
+</html>
